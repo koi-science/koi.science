@@ -8,7 +8,9 @@
 					<p>{{ .Site.Params.phone }}<br>
 						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>
 						<br>
-						{{ .Site.Params.address }}
+						Address: {{ .Site.Params.address }}
+						<br>
+						Address: {{.Site.Params.address_cn}}
 					</p>
 				</div>
 			</div>
@@ -16,7 +18,7 @@
 
 			{{ if .Site.Params.footerEnableFollowme }}
 			<div class="col-md-3 widget">
-				<h3 class="widget-title">Follow me</h3>
+				<h3 class="widget-title">Follow us</h3>
 				<div class="widget-body">
 					<p class="follow-me-icons">
                         {{ range .Site.Params.social }}
@@ -31,12 +33,23 @@
 
 			{{ if .Site.Params.footerEnableTextWidget }}
 			<div class="col-md-3 widget">
-				<h3 class="widget-title">Text widget</h3>
+				<h3 class="widget-title">Mailing list</h3>
 				<div class="widget-body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
+			
+				<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+
+					<form action="//science.us16.list-manage.com/subscribe/post?u=a498da558111ab7c445ed6bcb&amp;id=387bfa127a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<div id="mc_embed_signup_scroll">
+							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Subscribe for updates" required>
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a498da558111ab7c445ed6bcb_387bfa127a" tabindex="-1" value=""></div>
+							<div class="clear"><input type="submit" value="OK" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+						</div>
+					</form>
 				</div>
 			</div>
+		</div>
 			{{ end }}
 
 			{{ if .Site.Params.footerEnableFormWidget }}
@@ -60,16 +73,18 @@
 	<div class="container">
 		<div class="row">
 
+			<!--
 			<div class="col-md-6 widget">
 				<div class="widget-body">
 					<p>{{ .Site.Params.address }}</p>
 				</div>
 			</div>
+			-->
 
-			<div class="col-md-6 widget">
+			<div class="col-md-12 widget">
 				<div class="widget-body">
 					<p class="text-right">
-						Copyright &copy; {{ .Site.Params.year }}, {{ .Site.Params.name }}<br>
+						Copyright &copy; {{ .Site.Params.year }}, {{ .Site.Params.name }}.
 						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
                         Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
                     </p>

@@ -5,7 +5,7 @@ body {
   font-size: 15px;
   font-size: 0.9375rem;
   font-family: "Open sans", Helvetica, Arial, sans-serif;
-  color: #666666;
+  color: #1A1A1A;
   padding: 0;
 }
 .topspace {
@@ -192,7 +192,7 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #bd1550;
+  color: #777;
 }
 a:hover {
   color: #e93675;
@@ -225,10 +225,16 @@ a:hover {
 
 **********************************************************************/
 #head {
-  background: #f4f4f4 url(../images/bg_head.jpg) top center;
+  background: #000000 url(../images/di-lambda-uno-v1-laptop.jpg) top center;
   background-size: cover;
-  color: #7C7C7C;
+  opacity: 0.95;
   padding: 30px 0 35px 0;
+}
+#head img.img-logo {
+  display: block;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 #head img.img-circle {
   display: block;
@@ -239,20 +245,22 @@ a:hover {
   margin: 0 auto;
 }
 #head .title {
-  font-family: Alice, Georgia, serif;
-  font-size: 49px;
-  font-size: 3.0625rem;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 60px;
+  font-size: 4.0625rem;
+  color: #EEEEEE;
 }
 #head .title a {
   text-decoration: none;
-  color: #333333;
+  color: #888888;
 }
 #head .tagline {
   display: block;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #7C7C7C;
+  color: #FFFFFF;
   margin: 5px 0 0;
 }
 #head .tagline b {
@@ -262,7 +270,7 @@ a:hover {
   color: #5E5E5E;
 }
 .home #head {
-  padding: 90px 0;
+//  padding: 90px 0;
 }
 .home #head .title {
   font-size: 49px;
@@ -501,6 +509,10 @@ img {
 .pagination > li.active > a:hover {
   color: #000000;
   background: none;
+}
+
+.partners-container {
+	display: flex;
 }
 /*********************************************************************
 
@@ -761,6 +773,7 @@ footer.entry-meta .meta-in {
 
 
 **********************************************************************/
+
 #footer {
   background: #232323;
   padding: 30px 0 0 0;
@@ -827,3 +840,111 @@ footer.entry-meta .meta-in {
       color: #004488;
    }
 }
+
+/* MailChimp Form Embed Code - Horizontal Super Slim - 12/16/2015 v10.7
+Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
+
+#mc_embed_signup form {
+	text-align:center;
+	display: flex;
+	/*padding:10px 0 10px 0;*/
+}
+
+.mc-field-group {
+	display: inline-block;
+} /* positions input field horizontally */
+
+#mc_embed_signup input.email {
+	font-family:"Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
+	font-size: 12px; border: 1px solid #ABB0B2;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #343434;
+	background-color: #fff;
+	box-sizing:border-box;
+	height:20px;
+//	padding: 0px 0.4em;
+	display: inline-block;
+	margin: 0;
+	/*width:350px;*/
+	vertical-align:top;
+}
+
+#mc_embed_signup label {
+	display:block;
+	font-size:16px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+
+#mc_embed_signup .clear {
+	display: inline-block;
+} /* positions button horizontally in line with input */
+
+#mc_embed_signup .button {
+	font-size: 12px;
+	border: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	letter-spacing: .03em;
+	color: #fff;
+	background-color: #aaa;
+	box-sizing:border-box;
+	height:20px;
+	line-height:20px;
+	padding:0 18px;
+	display: inline-block;
+	margin: 0;
+	transition: all 0.23s ease-in-out 0s;
+}
+
+#mc_embed_signup .button:hover {
+	background-color:#777;
+	cursor:pointer;
+}
+
+#mc_embed_signup div#mce-responses {
+	float:left;
+	top:-1.4em;
+	padding:0em .5em 0em .5em;
+	overflow:hidden;
+	width:90%;
+	margin: 0 5%;
+	clear: both;
+}
+
+#mc_embed_signup div.response {
+	margin:1em 0;
+	padding:1em .5em .5em 0;
+	font-weight:bold;
+	float:left;
+	top:-1.5em;
+	z-index:1; width:80%;
+}
+
+#mc_embed_signup #mce-error-response {
+	display:none;
+}
+
+#mc_embed_signup #mce-success-response {
+	color:#529214;
+	display:none;
+}
+
+#mc_embed_signup label.error {
+	display:block;
+	float:none;
+	width:auto;
+	margin-left:1.05em;
+	text-align:left;
+	padding:.5em 0;
+}
+
+@media (max-width: 768px) {
+    #mc_embed_signup input.email {width:100%; margin-bottom:5px;}
+    #mc_embed_signup .clear {display: block; width: 100% }
+    #mc_embed_signup .button {width: 100%; margin:0; }
+}
+

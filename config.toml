@@ -1,16 +1,17 @@
-baseURL = "http://example.org/"
+baseURL = "https://koi.science/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Molecular Biology for your classroom"
 theme = "initio"
 
 publishDir = "docs"
 
 [params]
-    name = "Anthony Russel"
-    description = "A mystery person"
-    email = "anthony.russel42@example.com"
-    phone = "+234 23 9873237"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
+    name = "Koi Science"
+    description = "Molecular biology, made simple and affordable for your classroom"
+    email = "info@koi.science"
+    phone = "+86 186 8246 7503"
+    address = "Our address in English"
+    address_cn = "深圳 南山区 南头街道 麻雀岭工业区m10栋4号楼一楼 零空间"
     year = 2017
     background = ""
     favicon = "images/gt_favicon.png"
@@ -20,9 +21,45 @@ publishDir = "docs"
     showServices = true
     showRecentWorks = true
     showDownload = true
-    showClients = true
+    showPartners = true
 
     footerEnableContact = true
     footerEnableFollowme = true
     footerEnableTextWidget = true
     footerEnableFormWidget = true
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/post/"
+    weight = 5
+
+[[menu.main]]
+    name = "Shop"
+    url = "http://amazon.com"
+    weight = 5
+
+[[menu.main]]
+    name = "Downloads"
+    url = "/downloads/"
+    weight = 5
+
+
+
+[[params.social]]
+        title = "twitter"
+        url = "https://twitter.com/koi_science"
+	icon = "fa-twitter-square"
+	footer = true
+	sharethis = true
+	network = "twitter"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/koi-science"
+	icon = "fa-github"
+	footer = true
+	sharethis = false
+	network = ""
