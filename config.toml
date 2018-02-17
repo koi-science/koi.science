@@ -18,7 +18,7 @@ publishDir = "docs"
     DateForm = "January 2, 2006"
 
     showSubheader = true
-    showServices = true
+    showTools = true
     showRecentWorks = true
     showDownload = true
     showPartners = true
@@ -63,3 +63,4 @@ publishDir = "docs"
 	footer = true
 	sharethis = false
 	network = ""
+

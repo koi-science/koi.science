@@ -1,0 +1,50 @@
++++
+title = "DI-Lamba UNO spectrophotometer"
+image = "images/tools/di-lambda-uno-v1.0.jpg"
+markup = "mmark"
++++
+
+
+
+<!--more-->
+
+
+#### Typical applications
+
+* Bacteria growth measurement (OD 600)
+* Colorimetric assays for protein quantification
+	* BCA
+	* Bradford assay
+	* Lowry assay
+* Colorimetric assays for glucose quantification
+* Water-related colorimetric assays
+	* Nitrate and nitrite concentration
+	* Total Chlorine concentration
+	* Water hardness
+	* Heavy metals (Lead, Copper)
+* Many more
+
+#### Specification
+
+
+{.table .headless-table}
+1 | 2 |
+--------|------
+Absorption measuring range | 0A - 3A
+Light path height    | 8.5mm
+Spectral bandwidth   | 10nm - 35nm (see list below)
+Detector Type        | Enhanced UV PIN Photodiode
+Fixed wavelength (nm)|
+Power consumption    | 1W (5v, 200ma)
+Power supply         | Micro-USB (5V DC, 200ma max)
+Interfaces	     | Micro-USB (to PC)
+Weight w/o accessories |
+Dimensions (W × D × H) |
+
+##### Spectral bandwidth
+
+{.table .headless-table .short-table}
+1 | 2
+--- | ----
+121 | 3223
+
