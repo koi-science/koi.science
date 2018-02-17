@@ -5,14 +5,28 @@ type = "about"
 weight = 10
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
+#### Summary
+Koi Science is providing solutions for teaching modern biology methods in schools. We operate from Shenzhen, China – the worlds capital of electronics.  
+Our main areas of activity include:\
 
-![about](../images/mac.jpg)
+* Development and production of affordable laboratory equipment.
+* Distribution of  Molecular Biology reagents and laboratory consumables.
+* Development of comprehensive teaching materials.
+* Training and workshops for teachers and educators.
 
-### Necessitatibus
+#### Motivation
 
-Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!
+Synthetic Biology, Genetic Engineering and Therapy are no longer confined to research laboratories. We use Molecular Biology to design our food. To produce new materials in a sustainable way. To treat disease that was not treatable before. It’s time to teach it in our schools.
 
-### Fugit, laboriosam
+#### Background
 
-Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?
+Our journey begins at the Center for Research and Interdisciplinarity in Paris. Here a group of masters students were teaching Molecular Biology to High School kids. We invited them to our laboratory, refreshed the theory, and let them dive into science. With very little guidance, the students were able to form scientific theories, and run experiments to test them out.
+
+We got tremendous feedback from the teachers. After a week spent at the lab, the students picked up an interest in science, and became active in the classroom. Molecular biology was no longer an abstract subject, it became a tangible experience.
+
+We want to bring this experience to every school. Sounds exciting? Contact us now!
+
+#### Contact
+
+[contact form]
+
