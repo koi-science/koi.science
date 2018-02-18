@@ -24,20 +24,27 @@
   border-radius: 5px;
   /*padding: 0px;*/
 }
-/*
-
-.kits-entry-wrapper {
-  display: flex;
-}
-.kits-entry-column {
-  flex: 1;
-  padding: 15px;
-}
-
-*/
 
 .kits-entry-desc {
   padding-left: 15px; 
+}
+
+.partners-entry {
+  display: block;
+  margin-bottom: 10px;
+  background: #f3f3f3;
+/*  border-radius: 5px;*/
+}
+
+.partners-img {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 30px;
+/*  border: 10px solid #f3f3f3;*/
+/*  margin: 0 auto;*/
+
+/*  border-radius: 5px;*/
+  /*padding: 0px;*/
 }
 
 html {

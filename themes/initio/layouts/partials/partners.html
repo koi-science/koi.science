@@ -1,11 +1,24 @@
-<div class="row section partners topspace">
+<div class="row section featured topspace">
     <h2 class="section-title"><span>Partners</span></h2>
-    <div class="partners-container">
-    	<div> 
+        <div class="">
+            {{ range $index, $area := .Site.Data.partners }}
+                <a class="partners-entry" href="{{ .url }}">
+                    <div class="col-sm-2">
+                        <span class="partners-img">
+                            <img src="{{ .image }}" alt="">
+                        </span>
+                    </div>
+                </a>
+            {{ end }}
+        </div>
+
+<!--
+    	<div>
             <a href="http://cri-paris.org"><img src="images/logo-cri-2017-1.png" alt=""></a>
      	</div>
-    	<div> 
+    	<div>
            <a href="http://openscienceschool.org"><img src="images/OSS-black.jpg" alt=""></a>
      	</div>
-    </div>
+
+-->
 </div> <!-- /section -->

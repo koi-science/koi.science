@@ -1,0 +1,15 @@
+
+[
+    {
+        "id": 0,
+        "name": "Center for Research and interdisciplinarity",
+        "image": "images/logo-cri-2017-1.png",
+        "url": "http://cri-paris.org"
+    },
+    {
+        "id": 1,
+        "name": "Open Science School",
+        "image": "images/OSS-black.jpg",
+        "url": "http://openscienceschool.org"
+    }
+]
