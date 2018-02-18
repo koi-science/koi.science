@@ -19,8 +19,8 @@ publishDir = "docs"
 
     showSubheader = true
     showTools = true
-    showRecentWorks = true
-    showDownload = true
+    showKits = true
+    showDownload = false
     showPartners = true
 
     footerEnableContact = true
@@ -48,10 +48,9 @@ publishDir = "docs"
     weight = 5
 
 
-
 [[params.social]]
-        title = "twitter"
-        url = "https://twitter.com/koi_science"
+    title = "twitter"
+    url = "https://twitter.com/koi_science"
 	icon = "fa-twitter-square"
 	footer = true
 	sharethis = true

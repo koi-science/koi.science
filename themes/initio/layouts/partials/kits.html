@@ -1,0 +1,44 @@
+<div class="row section featured topspace">
+
+    <h2 class="section-title"><span>Experiment Kits</span></h2>
+
+    <div class="">
+        {{ range where .Data.Pages "Section" "kits" }}
+            <a href="{{ .Permalink }}" class="kits-entry">
+  				<div class="row">
+        			<div class="col-sm-2">
+    	    			<img src="{{ .Params.image }}" alt="" class=kits-img></img>
+			        </div>
+			        <div class="col-sm-10 kits-entry-desc">
+				        <h3 class="">{{ .Title }}</h3>
+				        <p>{{ .Summary }}</p>
+			        </div>
+		        </div>
+            </a>
+        {{ end }}
+    </div>
+</div>
+
+<!--
+		<div class="kits-entry-wrapper">
+			<div class="kits-entry-column">
+				<a class="thumbnail" href="{{ .Permalink }}">
+				    <span class="img">
+					<img src="{{ .Params.image }}" alt="">
+					<span class="cover"><span class="more">See details &rarr;</span></span>
+				    </span>
+				    <span class="title">{{ .Params.name }}</span>
+				</a>
+			</div>
+			<div class="kits-entry-desc">
+				<a href="{{.Permalink}}"><h3 class="text-center">{{ .Title }}</h3></a>
+
+				<a href="{{.Permalink}}"><p>{{ .Summary }}</p></a>
+			</div>
+
+
+    </div>
+
+</div> 
+ -->
+<!-- /section -->

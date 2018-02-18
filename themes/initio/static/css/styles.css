@@ -8,6 +8,38 @@
   width:  50%;
 }
 
+.kits-entry {
+  display: block;
+  margin-bottom: 15px;
+  background: #f3f3f3;
+  border-radius: 5px;
+}
+
+.kits-img {
+  display: block;
+  overflow: hidden;
+  border: 10px solid #f3f3f3;
+  margin: 0 auto;
+
+  border-radius: 5px;
+  /*padding: 0px;*/
+}
+/*
+
+.kits-entry-wrapper {
+  display: flex;
+}
+.kits-entry-column {
+  flex: 1;
+  padding: 15px;
+}
+
+*/
+
+.kits-entry-desc {
+  padding-left: 15px; 
+}
+
 html {
   font-size: 100%;
 }
@@ -153,7 +185,7 @@ body {
 **********************************************************************/
 p {
   line-height: 1.6em;
-  margin: 0 0 30px 0;
+  margin: 0 0 0 0;
 }
 ul,
 ol {
@@ -389,7 +421,7 @@ img {
   /*text-transform: uppercase;*/
   line-height: 1.4em;
   vertical-align: middle;
-  margin: 0 0 25px 0;
+  margin: 0 0 0 0;
 }
 /* Section - Recent works */
 .thumbnails {
@@ -414,7 +446,6 @@ img {
   border-radius: 0;
   background-clip: padding-box;
   border: 0 none;
-  margin-bottom: 10px;
   padding: 0;
   text-align: center;
   text-decoration: none;
@@ -425,7 +456,7 @@ img {
   width: 100%;
   overflow: hidden;
   height: 180px;
-  margin: 0 0 20px;
+/*  margin: 0 0 20px;*/
   position: relative;
 }
 @media only screen and (max-width: 768px) {
