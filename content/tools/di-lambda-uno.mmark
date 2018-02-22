@@ -4,12 +4,21 @@ image = "images/tools/di-lambda-uno-v1.0.jpg"
 markup = "mmark"
 +++
 
-Lorem
+DI-Lambda UNO is a fixed-wavelength photometer designed for biochemical and environmental science assays. It’s a great fit for both a classroom and a research laboratory.
 
-sfsfs df sdf ds f sd fd f dsf s f dsf s f s 
-sfs fs df sdf s afdasdoifjiowaejfioewjf   
 <!--more-->
 
+DI-Lambda can be used to measure bacterial growth (OD600), protein or glucose concentration in food samples, to characterize water parameters (chlorine, hardness, contamination with nitrites, copper, lead), and more.  
+
+
+
+For classroom use, we offer a range of experimental kits that were developed to work with DI-Lambda. [Take a look](#!).
+
+
+For a research laboratory, DI-Lambda a great choice for simple routine measurements. Get one for your workbench, and you won’t have to walk to the fancy UV-IR spectrophotometer to take OD600 or measure protein concentration.
+
+
+DI-Lambda UNO features a color LCD display, and can also be controlled from a computer. It is compatible with industry-standard square cuvettes.
 
 #### Typical applications
 
@@ -28,12 +37,12 @@ sfs fs df sdf s afdasdoifjiowaejfioewjf
 
 #### Specification
 
-
 {.table .headless-table}
 1 | 2 |
 --------|------
 Absorption measuring range | 0A - 3A
 Light path height    | 8.5mm
+Cuvette shaft   |12.5 mm × 12.5 mm
 Spectral bandwidth   | 10nm - 35nm (see list below)
 Detector Type        | Enhanced UV PIN Photodiode
 Fixed wavelength (nm)|
@@ -46,7 +55,7 @@ Dimensions (W × D × H) |
 ##### Spectral bandwidth
 
 {.table .headless-table .short-table}
-1 | 2
+Light source (nm) | Spectral bandwidth 
 --- | ----
-121 | 3223
+596nm | 15nm
 

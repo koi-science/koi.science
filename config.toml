@@ -1,4 +1,4 @@
-baseURL = "https://koi.science/"
+baseURL = "http://koi.science/"
 languageCode = "en-us"
 title = "Molecular Biology for your classroom"
 theme = "initio"
