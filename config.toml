@@ -39,7 +39,7 @@ publishDir = "docs"
 
 [[menu.main]]
     name = "Shop"
-    url = "http://amazon.com"
+    url = "/shop/"
     weight = 5
 
 [[menu.main]]
