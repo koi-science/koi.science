@@ -1,53 +1,54 @@
 +++
 title = "Basics of spectrophotometry"
-image = "images/tools/di-lambda-uno-v1.0.jpg"
+image = "images/kits/Rainbow_icon.png"
 markup = "mmark"
 +++
 
-Lxxorem
+This kit will allow you learn about the nature of light, the spectrum and colors. Transmission and absorption of light by chemicals diluted in liquid, Beer-Lambert law.
 
-sfsfs df sdf ds f sd fd f dsf s f dsf s f s 
-sfs fs df sdf s afdasdoifjiowaejfioewjf   
+We will measure how colored food dies absorb light at different wavelengths. Create a calibration curve, and use it to find out the concentration of a mystery sample.
 
 <!--more-->
 
+We will cover the following theoretical subjects:
 
-#### Typical applications
+- The Nature of light. Spectrum, wavelengths and colors.
 
-* Bacteria growth measurement (OD 600)
-* Colorimetric assays for protein quantification
-	* BCA
-	* Bradford assay
-	* Lowry assay
-* Colorimetric assays for glucose quantification
-* Water-related colorimetric assays
-	* Nitrate and nitrite concentration
-	* Total Chlorine concentration
-	* Water hardness
-	* Heavy metals (Lead, Copper)
-* Many more
+- How chemicals absorb light, and how we can use this properly to determine their concentration.
 
-#### Specification
+- Transmittance, Absorbance, Beer-Lambert law.
 
+For the practical part, we will use a DI-Lambda spectrophotometer and food-safe dies to demonstrate these principles.
+
+- We will measure which wavelengths of light are absorbed by dies of different colors, and which ones can pass through.
+
+- We will make serial dilutions of a food die to create a calibration curve.
+
+- We will measure the absorbance of a mystery sample and find out its concentration using the calibration table.
+
+Optional:
+Use Excel to fit a line to the calibration curve, and to calculate the absorbance of the mystery sample with more precision.
+
+#### Kit contents
+
+This kit is intended for a classroom of up to 30, working in groups of 2-3 students.
+
+It includes:
 
 {.table .headless-table}
 1 | 2 |
 --------|------
-Absorption measuring range | 0A - 3A
-Light path height    | 8.5mm
-Spectral bandwidth   | 10nm - 35nm (see list below)
-Detector Type        | Enhanced UV PIN Photodiode
-Fixed wavelength (nm)|
-Power consumption    | 1W (5v, 200ma)
-Power supply         | Micro-USB (5V DC, 200ma max)
-Interfaces	     | Micro-USB (to PC)
-Weight w/o accessories |
-Dimensions (W × D × H) |
+Food-safe color dies 25mL | 2x red , 2x green, 2x yellow, 2x blue
+Distilled water 100mL | 2x
+Plastic spectrophotometry cuvettes | 50
+Plastic pipettes 1mL | 50
+Printed materials for teachers | 2x ([free download](#))
+Printed materials for students | 10x ([free download](#))
 
-##### Spectral bandwidth
+##### You will also need
 
-{.table .headless-table .short-table}
-1 | 2
---- | ----
-121 | 3223
+* A spectrophotometer. We suggest [DI-Lambda UNO](/tools/di-lambda-uno/).
+
+
+
 
