@@ -1,0 +1,77 @@
+
+#formspree {
+    padding-bottom: 15px;
+    
+}
+
+#formspree body {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: 'proxima-nova-soft', sans-serif;
+}
+
+#formspree form input, form textarea {
+    margin-bottom: 0.5em;
+}
+
+#formspree input, textarea {
+    font-size: 0.8em;
+    font-family: 'proxima-nova-soft', sans-serif;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 0.9em;
+    width: 100%;
+    resize: vertical;
+}
+
+#formspree button, input {
+    line-height: normal;
+}
+
+#formspree button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+#formspree button:hover, a.button:hover {
+    border-color: #2A735B;
+    color: #2A735B;
+}
+
+#formspree button, a.button {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #359173;
+    color: #359173;
+    background: transparent;
+    line-height: 1em;
+    padding: 0.6em 0.9em;
+    transition: all 0.3s ease-in-out;
+}
+
+#formspree button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+#formspree button, select {
+    text-transform: none;
+}
+
+#formspree button, input {
+    line-height: normal;
+}
+
+#formspree button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+#formspree html, button, input, select, textarea {
+    font-family: sans-serif;
+}
