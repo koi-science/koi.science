@@ -2,6 +2,7 @@
 title = "Water quality "
 image = "images/kits/water-img.png"
 markup = "mmark"
+draft=true
 +++
 
 Lorem

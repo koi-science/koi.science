@@ -32,19 +32,15 @@ publishDir = "docs"
     name = "home"
     url = "/"
     weight = 1
-[[menu.main]]
-    name = "blog"
-    url = "/post/"
-    weight = 5
+
+#[[menu.main]]
+#    name = "blog"
+#    url = "/post/"
+#    weight = 5
 
 [[menu.main]]
     name = "Shop"
     url = "/shop/"
-    weight = 5
-
-[[menu.main]]
-    name = "Downloads"
-    url = "/downloads/"
     weight = 5
 
 

@@ -1,6 +1,7 @@
 jQuery(document).ready(function($) {
 
 	var my_nav = $('.navbar-sticky'); 
+    var fake_nav = $('.navbar-fake');
 	// grab the initial top offset of the navigation 
 	var sticky_navigation_offset_top = my_nav.offset().top;
 	
@@ -9,10 +10,13 @@ jQuery(document).ready(function($) {
 		var scroll_top = $(window).scrollTop(); // our current vertical position from the top
 		
 		// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
-		if (scroll_top > sticky_navigation_offset_top) { 
+		if (scroll_top > sticky_navigation_offset_top) {
+            fake_nav.height(my_nav.outerHeight());
+            fake_nav.show();
 			my_nav.addClass( 'stick' );
 		} else {
 			my_nav.removeClass( 'stick' );
+            fake_nav.hide();
 		}   
 	};
 
